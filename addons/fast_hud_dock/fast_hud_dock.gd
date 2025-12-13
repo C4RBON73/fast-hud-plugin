@@ -22,7 +22,7 @@ func _enter_tree():
 	dock = preload("res://addons/fast_hud_dock/Fast_HUD_Dock.tscn").instantiate()
 
 	# Add the loaded scene to the docks.
-	add_control_to_dock(DOCK_SLOT_LEFT_UL, dock)
+	add_control_to_dock(DOCK_SLOT_LEFT_UR, dock)
 	# Note that LEFT_UL means the left of the editor, upper-left dock.
 
 

@@ -12,7 +12,9 @@ grow_vertical = 2
 
 [node name="TestButton" type="Button" parent="."]
 layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+offset_right = 63.0
+offset_bottom = 11.0
+text = "Button
+"
 script = ExtResource("1_tbgt5")
 metadata/_custom_type_script = "uid://d3nj8g62wbt16"
