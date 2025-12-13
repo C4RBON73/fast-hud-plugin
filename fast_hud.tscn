@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://by2behks685j1"]
+[gd_scene load_steps=3 format=3 uid="uid://by2behks685j1"]
 
 [ext_resource type="Script" uid="uid://d3nj8g62wbt16" path="res://addons/fast_hud/test_button.gd" id="1_pcdmm"]
+[ext_resource type="Script" uid="uid://biya7finhnhbw" path="res://addons/fast_hud/test_hud.gd" id="2_80aan"]
 
 [node name="Fast_HUD" type="Control"]
 layout_mode = 3
@@ -15,3 +16,20 @@ layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
 script = ExtResource("1_pcdmm")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 1152.0
+offset_top = 648.0
+offset_right = 1192.0
+offset_bottom = 688.0
+script = ExtResource("2_80aan")
+
+[node name="TestHud" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 1152.0
+offset_top = 648.0
+offset_right = 1192.0
+offset_bottom = 688.0
+script = ExtResource("2_80aan")
+metadata/_custom_type_script = "uid://biya7finhnhbw"

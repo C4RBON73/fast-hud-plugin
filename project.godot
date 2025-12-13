@@ -15,6 +15,10 @@ run/main_scene="uid://by2behks685j1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[dotnet]
+
+project/assembly_name="Fast_HUD_plugin"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/fast_hud/plugin.cfg", "res://addons/fast_hud_dock/plugin.cfg")
