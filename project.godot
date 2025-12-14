@@ -17,4 +17,4 @@ config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/fast_hud/plugin.cfg", "res://addons/fast_hud_dock/plugin.cfg")
+enabled=PackedStringArray("res://addons/fast_hud/Fast_hud/plugin.cfg", "res://addons/fast_hud/fast_hud_dock/plugin.cfg", "res://addons/fast_hud/plugin.cfg")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bsuiaj3r64lxg"]
 
-[ext_resource type="Script" uid="uid://d3nj8g62wbt16" path="res://addons/fast_hud/test_button.gd" id="1_tbgt5"]
+[ext_resource type="Script" uid="uid://d3nj8g62wbt16" path="res://addons/fast_hud/Fast_hud/test_button.gd" id="1_553ma"]
 
 [node name="Fast_HUD_Dock" type="Control"]
 layout_mode = 3
@@ -16,5 +16,5 @@ offset_right = 63.0
 offset_bottom = 11.0
 text = "Button
 "
-script = ExtResource("1_tbgt5")
+script = ExtResource("1_553ma")
 metadata/_custom_type_script = "uid://d3nj8g62wbt16"

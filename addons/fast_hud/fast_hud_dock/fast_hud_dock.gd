@@ -16,10 +16,11 @@ func _disable_plugin() -> void:
 var dock
 
 
+
 func _enter_tree():
 	# Initialization of the plugin goes here.
 	# Load the dock scene and instantiate it.
-	dock = preload("res://addons/fast_hud_dock/Fast_HUD_Dock.tscn").instantiate()
+	dock = preload("res://addons/fast_hud/fast_hud_dock/Fast_HUD_Dock.tscn").instantiate()
 
 	# Add the loaded scene to the docks.
 	add_control_to_dock(DOCK_SLOT_LEFT_UR, dock)
