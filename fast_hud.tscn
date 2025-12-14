@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://by2behks685j1"]
 
-[ext_resource type="Script" uid="uid://c3sfimltkdp03" path="res://container.gd" id="1_pcdmm"]
+[ext_resource type="Script" uid="uid://c3sfimltkdp03" path="res://addons/fast_hud/Fast_hud/container.gd" id="1_pcdmm"]
 
 [node name="Fast_HUD" type="Control"]
 layout_mode = 3
